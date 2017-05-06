@@ -1,8 +1,9 @@
 {
   "name": "glyph-size-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculates the size of a set of glyphs in the DOM ",
-  "main": "dist/index.js",
+  "main": "out/index.js",
+  "typings": "out/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/Raz0rwire/glyph-size-calculator/issues"
   },
-  "homepage": "https://github.com/Raz0rwire/glyph-size-calculator#readme",
-  "devDependencies": {
-    "ts-loader": "^2.0.3"
-  }
+  "homepage": "https://github.com/Raz0rwire/glyph-size-calculator#readme"
 }

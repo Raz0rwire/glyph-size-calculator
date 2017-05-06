@@ -1,4 +1,4 @@
-import {Glyphs, MeasureGlyphSize} from "./index";
+import {Glyphs, MeasureGlyphSize} from "./sizes";
 import {AddToBody, PrepareSampleElement, RemoveFromBody} from "./dom";
 
 interface GlyphCache {
