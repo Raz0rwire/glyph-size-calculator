@@ -1,8 +1,7 @@
 /**
  * PrepareSampleElement
  * @param selector
- * @returns {HTMLSpanElement}
- * @constructor
+ * @returns HTMLSpanElement
  */
 export function PrepareSampleElement(selector: string): HTMLSpanElement {
     const sourceElement = document.querySelector(selector);
@@ -30,7 +29,7 @@ export function PrepareSampleElement(selector: string): HTMLSpanElement {
 /**
  * AddToBody
  * @param element
- * @constructor
+ * @returns HTMLSpanElement
  */
 export function AddToBody(element: HTMLSpanElement): HTMLSpanElement {
     document.body.appendChild(element);
@@ -41,7 +40,7 @@ export function AddToBody(element: HTMLSpanElement): HTMLSpanElement {
 /**
  * RemoveFromBody
  * @param element
- * @constructor
+ * @returns HTMLSpanElement
  */
 export function RemoveFromBody(element: HTMLSpanElement): HTMLSpanElement {
     document.body.removeChild(element);
