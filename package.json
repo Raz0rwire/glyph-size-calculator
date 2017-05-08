@@ -1,6 +1,6 @@
 {
   "name": "glyph-size-calculator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Calculates the size of a set of glyphs in the DOM ",
   "main": "./out/index.js",
   "typings": "./out/index.d.ts",
