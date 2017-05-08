@@ -1,2 +1,0 @@
-require('rimraf')("out", [], function () {
-});
