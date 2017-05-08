@@ -1,12 +1,13 @@
 {
   "name": "glyph-size-calculator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Calculates the size of a set of glyphs in the DOM ",
   "main": "./out/index.js",
   "typings": "./out/index.d.ts",
   "scripts": {
-    "compile": "rimraf out && tsc -d",
+    "compile": "node cleanup.js && tsc -d",
     "prepublish": "npm run compile",
+    "preinstall": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
